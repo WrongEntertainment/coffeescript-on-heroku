@@ -11,7 +11,8 @@
   "main": "application.coffee",
   "dependencies": {
     "coffee-script": "1.6.3",
-    "express": "3.2.6"
+    "express": "3.2.6",
+    "ejs": "*"
   },
   "repositories": {
     "type": "git",
