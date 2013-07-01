@@ -31,7 +31,6 @@ app.configure 'development', ->
   app.use express.errorHandler()
 
 
-
 # Routes...
 app.get '/', routes.index
 app.get '/users', user.list
