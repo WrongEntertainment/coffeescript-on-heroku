@@ -1,25 +1,35 @@
 {
-  "name": "fles.ch",
+  "name": "heroku-node-template",
   "version": "0.0.1",
   "description": "This is a simple starter template for a running Coffeescript powered Node app on Heroku.",
-  "author": "John Flesch",
+  "author": "Paul Vollmer <paul.vollmer@fh-potsdam.de>",
+  "contributors": [
+    {
+      "name": "John Flesch",
+      "email": ""
+    },
+    {
+      "name": "Paul Vollmer",
+      "email": "paul.vollmer@fh-potsdam.de"
+    }
+  ],
   "homepage": "https://github.com/WrongEntertainment/heroku-node-template",
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  },
-  "main": "application.coffee",
-  "dependencies": {
-    "coffee-script": "1.6.3",
-    "express": "3.2.6",
-    "ejs": "*"
-  },
   "repositories": {
     "type": "git",
     "url": "https://github.com/WrongEntertainment/heroku-node-template"
   },
+  "main": "application.coffee",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "coffee-script": "1.6.3",
+    "express": "3.3.1",
+    "ejs": "0.8.4"
+  },
   "licenses": {
     "type": "MIT",
-    "url": "http://flesch.mit-license.org/"
+    "url": "http://wrong-entertainment.mit-license.org/"
   }
 }
